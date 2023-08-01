@@ -40,14 +40,16 @@ export function activate(context: vscode.ExtensionContext) {
 					const line = document.lineAt(i);
 					const edit = new vscode.WorkspaceEdit();
 					const regex =
-						/.*\b(int|float|double|boolean|char|byte|short|long)\b[^;]*$/;
-					const regexParenthesis = /.*(?<!\.)\)\s*$/;
+						/.*\b(int|float|double|boolean|char|byte|short|long|String)\b[^;]*$(?<!{|})/;
+					const regexSystem = /.*\)(?<!\\)\s*$/;
+
 					for (let i = 0; i < document.lineCount; i++) {
 						const line = document.lineAt(i);
 						// Do something with the line, such as print it to the console
-						if (regex.test(line.text)) {
-							edit.insert(document.uri, line.range.end, ";");
-						} else if (regexParenthesis.test(line.text)) {
+						if (
+							regex.test(line.text) ||
+							regexSystem.test(line.text)
+						) {
 							edit.insert(document.uri, line.range.end, ";");
 						}
 					}
