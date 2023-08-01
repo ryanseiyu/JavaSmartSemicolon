@@ -57,7 +57,7 @@
     "@vscode/test-electron": "^2.3.2"
   },
   "files": [
-    "dist/",
+    "./dist",
     "LICENSE.txt"
   ]
 }
