@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "publisher": "RyanSeiyuPublisher",
   "icon": {
-    "light": "./images/my-icon-light.png"
+    "logo": "./src/images/00001-3674646832.png"
   },
   "repository": {
     "type": "git",
