@@ -1,10 +1,10 @@
 # JavaSmartSemicolon README
 
-"JavaSmartSemicolon is a Visual Studio Code extension that automatically adds semicolons to the end of Java lines that require them.
+JavaSmartSemicolon is a Visual Studio Code extension that automatically adds semicolons to the end of Java lines that require them.
 
 ## Features
 
-It uses regular expressions to identify lines that end with a Java declaration or a method call without a semicolon, and adds the missing semicolon at the end of the line. The extension also checks if a line ends with a closing parenthesis and adds a semicolon if necessary, but only if the line does not start with a dot. This saves time and reduces errors when writing Java code, and helps ensure that your code is properly formatted and free of syntax errors."
+It uses regular expressions to identify lines that end with a Java declaration or a method call without a semicolon, and adds the missing semicolon at the end of the line. The extension also checks if a line ends with a closing parenthesis and adds a semicolon if necessary, but only if the line does not start with a dot. This saves time and reduces errors when writing Java code, and helps ensure that your code is properly formatted and free of syntax errors.
 
 ## Requirements
 
