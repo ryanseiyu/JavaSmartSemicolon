@@ -1,7 +1,6 @@
 # JavaSmartSemicolon README
 
 JavaSmartSemicolon is a Visual Studio Code extension that automatically adds semicolons to the end of Java lines that require them.
-![Logo](./src/images/00001-3674646832.png)
 
 ## Features
 
