@@ -2,10 +2,10 @@
   "name": "JavaSmartSemicolon",
   "displayName": "Java Smart Semicolon",
   "description": "Java Smart Semicolon is a Visual Studio Code extension that helps Java developers write code faster and with fewer errors. With this extension, you can say goodbye to manually adding semicolons at the end of each line of code. Instead, the extension automatically adds semicolons where they are needed, saving you time and reducing the risk of syntax errors. Additionally, the extension provides customizable settings to fit your coding style and preferences. Try Java Smart Semicolon today and take your Java coding to the next level!",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "RyanSeiyuPublisher",
   "license": "MIT",
-  "logo": "./images/logo.png",
+  "icon": "./images/logo.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanseiyu/JavaSmartSemicolon"
@@ -60,7 +60,7 @@
     "@vscode/test-electron": "^2.3.2"
   },
   "files": [
-    "./dist",
+    "./",
     "LICENSE.txt"
   ]
 }
